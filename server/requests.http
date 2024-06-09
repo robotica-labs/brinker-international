@@ -17,9 +17,8 @@ content-type: application/json
 ### Find a customer by their email
 GET http://localhost:3000/customers?email=Tom@test.com
 
-
 ### Update a user
-PATCH http://localhost:3000/customers/2
+PATCH http://localhost:3000/customers/1
 
 {
     "firstName": "Fred",
