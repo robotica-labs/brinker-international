@@ -1,8 +1,8 @@
-import { IsString, IsEmail, IsInt } from 'class-validator';
+import { IsEmail, IsInt, IsString } from 'class-validator';
 
 export class CreateCustomerDto {
   @IsInt() // int for simplicity
-  id: BigInteger;
+  id: number;
   @IsString()
   firstName: string;
   @IsString()

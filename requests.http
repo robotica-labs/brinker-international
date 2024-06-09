@@ -1,5 +1,5 @@
 ### Get a customer
-GET http://localhost:3000/customers/1
+GET http://localhost:3000/customers/18
 
 ### List all customers
 GET http://localhost:3000/customers
